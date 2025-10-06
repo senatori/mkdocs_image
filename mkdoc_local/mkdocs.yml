@@ -1,0 +1,8 @@
+site_name: Steven Senatori Site
+site_description: Site
+
+nav:
+  - Home: index.md
+
+theme:
+  name: mkdocs
