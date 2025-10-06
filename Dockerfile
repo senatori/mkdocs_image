@@ -20,6 +20,7 @@ RUN  chown mkdocs:mkdocs /home/mkdocs/run.sh \
 
 USER mkdocs
 WORKDIR /home/mkdocs
+VOLUME /input_dir
 
 # Set entrypoint
 ENTRYPOINT ["/home/mkdocs/run.sh"]
